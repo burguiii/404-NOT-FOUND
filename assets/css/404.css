@@ -1,0 +1,179 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.title-top p {
+    
+    font-family: 'Inconsolata', monospace;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+
+    color: #333333;
+    position: absolute;
+    width: 133px;
+    height: 25px;
+    left: 5%;
+    top: 40px;
+}
+
+.img{
+    position: absolute;
+    left: 5.35%;
+    top: 24.54%;
+
+    width: 540px;
+    height: 450px;
+  
+
+}
+
+
+/*I have bad news for you*/
+.tittle-mid h1{
+    flex-wrap: wrap;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+
+    color: #333333;
+    position: absolute;
+    width: 586px;
+    height: 190px;
+    left: 43.5%;
+    top: 28%;
+    
+
+    
+}
+
+.description-text p{
+    flex-wrap: wrap;
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+
+    color: #4f4f4f;
+    position: absolute;
+    width: 381px;
+    height: 108px;
+    left: 43.5%;
+    top: 50%;
+}
+
+
+.btn{
+    flex-wrap: wrap;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    color: white;
+
+    background-color: #333333;
+    position: absolute;
+    width: 216px;
+    height: 68px;
+    left: 43.5%;
+    top: 68%;
+    cursor: pointer;
+}
+
+.wm{
+
+    position: absolute;
+    width: 287px;
+    height: 17px;
+    left: 38%;
+    top: 95%;
+
+    color: #BDBDBD;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+
+}
+
+
+
+@media screen and (max-width: 700px) {
+    
+    .img{
+        left: 25%;
+        top: 15%;
+        width: 270px;
+        height: 270px;
+    }
+
+    
+
+    .tittle-mid h1{
+        left: 18%;
+        top: 46%;
+
+        width: 350px;
+        height: 90px;
+
+        font-size: 40px;
+        line-height: 47.5px;
+
+       
+    }
+
+    .description-text p{
+        left: 18%;
+        top: 58%;
+
+        width:  381px;
+        height: 120px;
+
+        font-size: 24px;
+        line-height: 23px;
+    }
+
+    .btn{
+        left: 18%;
+        top: 71%;
+        
+
+        width: 150px;
+        height: 56px;
+
+        font-size: 12px;
+    } 
+
+
+    .wm{
+    position: absolute;
+    width: 287px;
+    height: 17px;
+    left: 25%;
+    top: 95%;
+
+    color: #BDBDBD;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    }
+}
+ 
